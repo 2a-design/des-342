@@ -1,3 +1,49 @@
 /* css reset */
-@import url("reset.css");
+/* @import url("reset.css"); */
+
+/* adobe fonts */
+@import url("https://use.typekit.net/kuv1nbh.css");
+
+:root {
+    /*font stacks*/
+    --eurostile: eurostile, verdana, sans-serif;
+    --din: urw-din, bahnschrift, roboto, sans-serif;
+}
+
+body {
+    font-family: var(--din);
+    font-weight: 400;
+    scroll-behavior: smooth;
+    color: white;
+    background-image: url("images/diego-ph-5LOhydOtTKU-unsplash.jpg");
+    background-size: cover;
+}
+
+.flex-2, .flex-2 div{
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid white;
+}
+
+.flex-2 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.flex-2 h2{
+    margin: 4px;
+}
+
+.flex-2 div {
+    flex: 1;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--eurostile);
+    font-weight: 600;
+}
+
+a{
+    color: aqua;
+}
 
